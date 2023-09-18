@@ -8,7 +8,12 @@
               
                  printf("C says: Hello, World!\n");
                  printf("%d + %d = %d\n",a,b,c);
-              
+
+                 char users[3][20] = {"User1", "User2", "User3"};
+
+                 for (int i = 0; i< 3; i++){
+                  printf("%s\n", users[i]);
+                 }
                  return 0;
                }
 

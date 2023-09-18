@@ -1,7 +1,4 @@
-file1 = open('/Users/jeremypoppe/lab2_part1_code/inet4031_lab2/fileprocessor.input', 'r')
-Lines = file1.readlines()
-
-
+import sys
 
 for line in Lines:
     user = line.split(":")
@@ -16,5 +13,4 @@ for line in Lines:
 
 
   
-
 
